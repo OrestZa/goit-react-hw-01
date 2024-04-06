@@ -2,7 +2,6 @@
   border: 3px solid black;
   border-radius: 10px;
   width: 400px;
-  height: 450px;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(241, 239, 239);
@@ -15,7 +14,7 @@
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  margin: 0 auto;
+ margin-left: 100px;
 }
 
 .name {
@@ -23,8 +22,8 @@
   justify-content: space-around;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .text {
@@ -32,7 +31,8 @@
   justify-content: space-around;
   font-size: 22px;
   color: rgb(151, 151, 151);
-  padding-bottom: 20px;
+    margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .list {
@@ -41,6 +41,7 @@
   justify-content: space-between;
   background-color: rgb(160, 159, 158);
   padding: 0;
+  margin-bottom: 0;
 }
 
 .item {
@@ -54,9 +55,13 @@
 .itemTitle {
   font-size: 22px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 .itemStats {
   font-size: 20px;
   font-weight: bold;
+    display: flex;
+  justify-content: center;
 }
