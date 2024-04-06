@@ -15,7 +15,9 @@ tr:nth-child(even) {
   color: white;
   background-color: black;
 }
-
+.tdList{
+  text-align: center;
+}
 .tdClass {
   border: 1px solid #000000;
 }
